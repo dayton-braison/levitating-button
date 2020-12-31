@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+button {
+    background: none;
+    color: #bc13fe;
+    border: 5px solid #fff;
+    padding: 20px 30px;
+    font-size: 24px;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+button:hover {
+    border-color: #bc13fe;
+    color: #ffffff;
+    box-shadow: 5px 8px 12px 4px #bc13fe;
+    transform: translateY(-60px);
+    cursor: pointer;
+}
